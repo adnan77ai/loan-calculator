@@ -6,6 +6,6 @@ apr = float (0.05)          #5% annual percentage rate.
   
 for year in range (10) :    #10 years duration.
   
-  amount += amount*apr      #calculating loan
+  amount += amount * apr      #calculating loan
 
-  print (round(amount,2))
+  print (round (amount, 2))
